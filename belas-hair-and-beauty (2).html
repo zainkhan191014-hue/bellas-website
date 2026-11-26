@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bela's Hair & Beauty Salon | Dar es Salaam</title>
+<meta name="description" content="Bela's Hair & Beauty Salon in Dar es Salaam — hair, facials, nails, massage, waxing, threading and make-up for ladies & gents. Warm welcome, honest prices. Book on WhatsApp.">
+<meta property="og:title" content="Bela's Hair & Beauty Salon — Dar es Salaam">
+<meta property="og:description" content="Hair, facials, nails, massage, waxing & make-up for ladies & gents. Come as you are, leave glowing.">
+<meta name="theme-color" content="#3b1f2b">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BeautySalon",
+  "name": "Bela's Hair and Beauty Salon",
+  "telephone": "+255715865590",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Livingstone/Amani Street, Within Iris Hotel complex",
+    "addressLocality": "Dar es Salaam",
+    "addressCountry": "TZ"
+  },
+  "openingHours": "Mo-Su 09:00-20:00",
+  "hasMap": "https://maps.app.goo.gl/dYjHnUdnTYsw86Qh6"
+}
+</script>
+<style>
+:root{
+  --plum:#3b1f2b;
+  --plum-2:#512a3b;
+  --rose:#c9788a;
+  --blush:#f6e4e1;
+  --cream:#fdf7f2;
+  --gold:#b88a4a;
+  --gold-soft:#e6cfa3;
+  --ink:#2a1a21;
+  --muted:#7a6168;
+  --radius:22px;
+  --shadow:0 18px 50px -20px rgba(59,31,43,.35);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{font-family:'Jost',system-ui,sans-serif;color:var(--ink);background:var(--cream);line-height:1.65;font-size:17px;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;line-height:1.1;letter-spacing:-.01em}
+a{color:inherit;text-decoration:none}
+img,svg{max-width:100%;display:block}
+.wrap{width:min(1140px,100% - 40px);margin-inline:auto}
+section{padding:96px 0}
+.eyebrow{font-size:.78rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);font-weight:500;display:inline-flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:34px;height:1px;background:currentColor}
+h2{font-size:clamp(2.3rem,5vw,3.6rem);margin:14px 0 18px}
+.lead{color:var(--muted);max-width:56ch}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 30px;border-radius:999px;font-weight:500;font-size:.98rem;border:1.5px solid transparent;cursor:pointer;transition:transform .25s,box-shadow .25s,background .25s,color .25s;font-family:inherit}
+.btn:hover{transform:translateY(-2px)}
+.btn-gold{background:var(--gold);color:#fff;box-shadow:0 10px 26px -10px rgba(184,138,74,.8)}
+.btn-gold:hover{background:#a47838}
+.btn-ghost{border-color:rgba(255,255,255,.55);color:#fff}
+.btn-ghost:hover{background:rgba(255,255,255,.12)}
+.btn-wa{background:#1f9d57;color:#fff}
+.btn-wa:hover{background:#188548}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:8px}
+
+/* NAV */
+header{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,box-shadow .3s,padding .3s;padding:18px 0}
+header.scrolled{background:rgba(253,247,242,.92);backdrop-filter:blur(14px);box-shadow:0 1px 0 rgba(59,31,43,.08);padding:10px 0}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px;color:#fff;transition:color .3s}
+header.scrolled .logo{color:var(--plum)}
+.logo-mark{width:42px;height:42px;border-radius:50%;border:1.5px solid var(--gold-soft);display:grid;place-items:center;font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-style:italic;color:var(--gold-soft);background:rgba(255,255,255,.06)}
+header.scrolled .logo-mark{border-color:var(--gold);color:var(--gold);background:transparent}
+.logo-text{font-family:'Cormorant Garamond',serif;font-size:1.45rem;font-weight:700;line-height:1}
+.logo-text small{display:block;font-family:'Jost',sans-serif;font-weight:400;font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;opacity:.8;margin-top:4px}
+nav ul{display:flex;gap:30px;list-style:none;align-items:center}
+nav a.link{color:#fff;font-size:.95rem;font-weight:400;position:relative;transition:color .3s}
+header.scrolled nav a.link{color:var(--ink)}
+nav a.link::after{content:"";position:absolute;left:0;bottom:-5px;height:1.5px;width:0;background:var(--gold);transition:width .3s}
+nav a.link:hover::after{width:100%}
+.lang{background:transparent;border:1px solid rgba(255,255,255,.5);color:#fff;border-radius:999px;padding:6px 14px;font-size:.8rem;cursor:pointer;font-family:inherit;letter-spacing:.08em}
+header.scrolled .lang{border-color:rgba(59,31,43,.3);color:var(--plum)}
+.burger{display:none;background:none;border:0;cursor:pointer;width:44px;height:44px;color:#fff}
+header.scrolled .burger{color:var(--plum)}
+.burger span{display:block;width:24px;height:2px;background:currentColor;margin:5px auto;transition:.3s}
+@media(max-width:860px){
+  .burger{display:block}
+  nav{position:fixed;inset:0 0 0 auto;width:min(320px,82vw);background:var(--plum);padding:90px 32px 32px;transform:translateX(100%);transition:transform .35s ease;box-shadow:-20px 0 60px rgba(0,0,0,.3)}
+  nav.open{transform:none}
+  nav ul{flex-direction:column;align-items:flex-start;gap:22px}
+  nav a.link,header.scrolled nav a.link{color:#fff;font-size:1.15rem}
+  .lang,header.scrolled .lang{border-color:rgba(255,255,255,.5);color:#fff}
+  .burger{position:relative;z-index:60}
+}
+
+/* HERO */
+.hero{min-height:100svh;display:grid;align-items:center;color:#fff;position:relative;overflow:hidden;padding:130px 0 90px;
+  background:
+   radial-gradient(900px 500px at 85% 10%,rgba(201,120,138,.45),transparent 60%),
+   radial-gradient(700px 500px at 0% 100%,rgba(184,138,74,.28),transparent 60%),
+   linear-gradient(160deg,#3b1f2b 0%,#512a3b 55%,#6b3447 100%)}
+.hero .orb{position:absolute;border-radius:50%;filter:blur(2px);opacity:.5;animation:float 9s ease-in-out infinite}
+.orb.a{width:340px;height:340px;right:-90px;top:12%;border:1px solid rgba(230,207,163,.4)}
+.orb.b{width:520px;height:520px;right:-190px;top:-2%;border:1px solid rgba(230,207,163,.18);animation-delay:-3s}
+.orb.c{width:14px;height:14px;background:var(--gold-soft);left:12%;bottom:22%;animation-delay:-5s}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center;position:relative}
+.hero h1{font-size:clamp(3rem,8vw,6rem);margin:20px 0 22px}
+.hero h1 em{color:var(--gold-soft);font-style:italic;font-weight:500}
+.hero p.sub{font-size:1.18rem;color:rgba(255,255,255,.82);max-width:48ch;margin-bottom:34px}
+.cta-row{display:flex;gap:14px;flex-wrap:wrap}
+.trust{display:flex;gap:30px;flex-wrap:wrap;margin-top:46px;padding-top:28px;border-top:1px solid rgba(255,255,255,.18)}
+.trust div strong{display:block;font-family:'Cormorant Garamond',serif;font-size:2rem;color:var(--gold-soft);line-height:1}
+.trust div span{font-size:.82rem;letter-spacing:.08em;color:rgba(255,255,255,.7)}
+.hero-card{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(10px);border-radius:var(--radius);padding:34px;box-shadow:var(--shadow)}
+.hero-card h3{font-size:1.9rem;margin-bottom:6px;color:var(--gold-soft)}
+.hero-card p{color:rgba(255,255,255,.8);font-size:.98rem;margin-bottom:18px}
+.status{display:inline-flex;align-items:center;gap:9px;background:rgba(255,255,255,.12);padding:8px 16px;border-radius:999px;font-size:.88rem;margin-bottom:20px}
+.dot{width:9px;height:9px;border-radius:50%;background:#7bd99b;box-shadow:0 0 0 0 rgba(123,217,155,.7);animation:pulse 2s infinite}
+.dot.closed{background:#e58f8f;animation:none}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(123,217,155,0)}100%{box-shadow:0 0 0 0 rgba(123,217,155,0)}}
+.hero-card ul{list-style:none;display:grid;gap:10px;font-size:.96rem}
+.hero-card li{display:flex;gap:12px;align-items:flex-start}
+.hero-card li svg{flex:none;margin-top:4px;color:var(--gold-soft)}
+@media(max-width:900px){.hero-grid{grid-template-columns:1fr}.hero-card{max-width:480px}}
+
+/* WELCOME */
+.welcome{background:var(--cream)}
+.welcome-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.frame{position:relative;aspect-ratio:4/5;border-radius:200px 200px var(--radius) var(--radius);background:
+  radial-gradient(circle at 30% 20%,#f0c9c3,transparent 55%),
+  linear-gradient(160deg,var(--blush),#e8b9b8 60%,var(--rose));
+  display:grid;place-items:center;overflow:hidden;box-shadow:var(--shadow)}
+.frame::before{content:"";position:absolute;inset:14px;border:1px solid rgba(255,255,255,.7);border-radius:190px 190px 14px 14px}
+.frame .big{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(7rem,18vw,12rem);color:rgba(255,255,255,.9);line-height:1;text-shadow:0 10px 40px rgba(59,31,43,.25)}
+.frame .tag{position:absolute;bottom:26px;left:50%;transform:translateX(-50%);background:#fff;color:var(--plum);padding:10px 22px;border-radius:999px;font-size:.85rem;font-weight:500;white-space:nowrap;box-shadow:var(--shadow)}
+.values{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:30px}
+.value{background:#fff;border-radius:16px;padding:20px;border:1px solid rgba(59,31,43,.07)}
+.value b{font-family:'Cormorant Garamond',serif;font-size:1.3rem;color:var(--plum);display:block;margin-bottom:4px}
+.value span{font-size:.92rem;color:var(--muted)}
+@media(max-width:860px){.welcome-grid{grid-template-columns:1fr;gap:44px}.frame{max-width:380px;margin-inline:auto}}
+
+/* SERVICES */
+.services{background:linear-gradient(180deg,var(--blush),var(--cream))}
+.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:34px 0 30px}
+.tab{padding:11px 22px;border-radius:999px;background:#fff;border:1px solid rgba(59,31,43,.12);cursor:pointer;font-family:inherit;font-size:.95rem;color:var(--ink);transition:.25s}
+.tab:hover{border-color:var(--gold)}
+.tab[aria-selected="true"]{background:var(--plum);color:#fff;border-color:var(--plum)}
+.panel{display:none;animation:fade .45s}
+.panel.active{display:grid}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.panel{grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.svc{background:#fff;border-radius:18px;padding:24px;border:1px solid rgba(59,31,43,.07);display:flex;gap:16px;align-items:center;transition:transform .25s,box-shadow .25s}
+.svc:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.svc i{flex:none;width:46px;height:46px;border-radius:50%;background:var(--blush);display:grid;place-items:center;color:var(--rose);font-style:normal;font-size:1.2rem}
+.svc span{font-weight:500}
+.note{margin-top:30px;color:var(--muted);font-size:.95rem}
+.note a{color:var(--plum);font-weight:500;border-bottom:1px solid var(--gold)}
+
+/* FEATURE BAND */
+.band{background:var(--plum);color:#fff;padding:70px 0}
+.band-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px;text-align:center}
+.band h3{font-size:1.7rem;color:var(--gold-soft);margin-bottom:8px}
+.band p{color:rgba(255,255,255,.75);font-size:.98rem}
+.band .ic{width:56px;height:56px;border:1px solid var(--gold-soft);border-radius:50%;display:grid;place-items:center;margin:0 auto 16px;color:var(--gold-soft)}
+@media(max-width:760px){.band-grid{grid-template-columns:1fr}}
+
+/* BOOKING */
+.book-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:start}
+.hours{margin-top:26px;background:#fff;border-radius:var(--radius);padding:26px;border:1px solid rgba(59,31,43,.07)}
+.hours div{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px dashed rgba(59,31,43,.14)}
+.hours div:last-child{border:0}
+form{background:#fff;border-radius:var(--radius);padding:34px;box-shadow:var(--shadow);display:grid;gap:18px;border:1px solid rgba(59,31,43,.06)}
+form h3{font-size:2rem;color:var(--plum)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+label{font-size:.82rem;letter-spacing:.06em;color:var(--muted);display:grid;gap:7px;text-transform:uppercase;font-weight:500}
+input,select,textarea{font-family:inherit;font-size:1rem;padding:14px 16px;border:1.5px solid rgba(59,31,43,.15);border-radius:12px;background:var(--cream);color:var(--ink);width:100%;text-transform:none;letter-spacing:0}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--gold);background:#fff}
+textarea{resize:vertical;min-height:90px}
+.fine{font-size:.82rem;color:var(--muted);text-align:center}
+@media(max-width:860px){.book-grid{grid-template-columns:1fr}.row{grid-template-columns:1fr}}
+
+/* GALLERY */
+.gallery{background:var(--cream)}
+.g-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;margin-top:40px}
+.tile{position:relative;border-radius:var(--radius);overflow:hidden;aspect-ratio:1/1.1;box-shadow:var(--shadow);background:var(--bg);transition:transform .35s}
+.tile:hover{transform:translateY(-6px)}
+.tile .art{position:absolute;inset:0;display:grid;place-items:center;padding:34px 34px 70px}
+.tile .art svg{width:100%;height:100%;transition:transform .5s}
+.tile:hover .art svg{transform:scale(1.06) rotate(-2deg)}
+.tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tile figcaption{position:absolute;left:0;right:0;bottom:0;padding:44px 22px 18px;background:linear-gradient(transparent,rgba(59,31,43,.78));color:#fff;font-family:'Cormorant Garamond',serif;font-size:1.5rem;font-weight:600}
+.tile figcaption small{display:block;font-family:'Jost',sans-serif;font-size:.8rem;font-weight:300;letter-spacing:.06em;opacity:.85}
+.tile:nth-child(even){transform:translateY(14px)}
+.tile:nth-child(even):hover{transform:translateY(8px)}
+@media(max-width:560px){.tile:nth-child(even){transform:none}}
+.welcome-art{position:absolute;inset:0;width:100%;height:100%}
+
+/* VISIT */
+.visit{background:linear-gradient(180deg,var(--cream),var(--blush))}
+.visit-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:50px;align-items:stretch}
+.info{display:grid;gap:22px;align-content:start}
+.info-item{display:flex;gap:16px;align-items:flex-start}
+.info-item .ic{flex:none;width:48px;height:48px;border-radius:50%;background:var(--plum);color:var(--gold-soft);display:grid;place-items:center}
+.info-item b{display:block;font-family:'Cormorant Garamond',serif;font-size:1.35rem;color:var(--plum)}
+.info-item a{border-bottom:1px solid var(--gold)}
+.map{border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow);min-height:380px;background:#eadad6}
+.map iframe{width:100%;height:100%;min-height:380px;border:0}
+@media(max-width:860px){.visit-grid{grid-template-columns:1fr}}
+
+/* FOOTER */
+footer{background:var(--plum);color:rgba(255,255,255,.75);padding:56px 0 30px;text-align:center}
+footer .logo-text{color:#fff;font-size:2rem;display:block}
+footer p{margin:10px auto;max-width:46ch}
+.foot-links{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;margin:22px 0}
+.foot-links a{color:var(--gold-soft)}
+.copy{font-size:.82rem;opacity:.6;margin-top:24px}
+
+/* WhatsApp float */
+.fab{position:fixed;right:20px;bottom:20px;z-index:40;width:60px;height:60px;border-radius:50%;background:#1f9d57;color:#fff;display:grid;place-items:center;box-shadow:0 12px 30px -8px rgba(31,157,87,.7);transition:transform .25s}
+.fab:hover{transform:scale(1.08)}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(26px);transition:opacity .8s ease,transform .8s ease}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<header id="top">
+  <div class="wrap nav">
+    <a href="#top" class="logo" aria-label="Bela's Hair and Beauty — home">
+      <span class="logo-mark">B</span>
+      <span class="logo-text">Bela's<small>Hair &amp; Beauty</small></span>
+    </a>
+    <button class="burger" aria-label="Menu" aria-expanded="false" id="burger"><span></span><span></span><span></span></button>
+    <nav id="nav">
+      <ul>
+        <li><a class="link" href="#welcome" data-i18n="nav_about">About</a></li>
+        <li><a class="link" href="#services" data-i18n="nav_services">Services</a></li>
+        <li><a class="link" href="#gallery">Gallery</a></li>
+        <li><a class="link" href="#book" data-i18n="nav_book">Book</a></li>
+        <li><a class="link" href="#visit" data-i18n="nav_visit">Visit</a></li>
+        <li><button class="lang" id="lang" aria-label="Switch language">SW</button></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero">
+  <span class="orb a"></span><span class="orb b"></span><span class="orb c"></span>
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow" style="color:var(--gold-soft)" data-i18n="hero_eyebrow">Dar es Salaam · Ladies &amp; Gents</span>
+      <h1><span data-i18n="hero_h1a">Come as you are.</span><br><em data-i18n="hero_h1b">Leave glowing.</em></h1>
+      <p class="sub" data-i18n="hero_sub">A warm, friendly salon where every guest is treated like family. Hair, facials, nails, massage and more — with honest prices and a genuine smile.</p>
+      <div class="cta-row">
+        <a class="btn btn-gold" href="#book" data-i18n="cta_book">Book your visit</a>
+        <a class="btn btn-ghost" href="#services" data-i18n="cta_services">Explore services</a>
+      </div>
+      <div class="trust">
+        <div><strong>4.9★</strong><span data-i18n="trust_rating">Loved on Google</span></div>
+        <div><strong>190+</strong><span data-i18n="trust_reviews">Happy reviews</span></div>
+        <div><strong>7</strong><span data-i18n="trust_cats">Treatment categories</span></div>
+      </div>
+    </div>
+    <aside class="hero-card" aria-label="Quick info">
+      <span class="status"><span class="dot" id="dot"></span><span id="statusText">Checking hours…</span></span>
+      <h3 data-i18n="card_h">Your pamper time starts here</h3>
+      <p data-i18n="card_p">Walk in or book ahead — we'll look after you.</p>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg><span>Livingstone / Amani Street, within the Iris Hotel complex</span></li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><a href="tel:+255715865590">+255 715 865 590</a></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<!-- WELCOME -->
+<section class="welcome" id="welcome">
+  <div class="wrap welcome-grid">
+    <div class="frame reveal" role="img" aria-label="Decorative monogram B">
+      <svg class="welcome-art" viewBox="0 0 400 500" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="hairG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a2d3d"/><stop offset="1" stop-color="#2f1721"/></linearGradient>
+          <linearGradient id="skinG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#e9b99a"/><stop offset="1" stop-color="#d79f7f"/></linearGradient>
+          <linearGradient id="topG" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b88a4a"/><stop offset="1" stop-color="#8c6530"/></linearGradient>
+        </defs>
+        <circle cx="200" cy="230" r="150" fill="rgba(255,255,255,.28)"/>
+        <!-- hair back -->
+        <path d="M200 70c-80 0-122 62-118 140 3 60-14 110-40 160 50 6 96-6 118-40h80c22 34 68 46 118 40-26-50-43-100-40-160 4-78-38-140-118-140z" fill="url(#hairG)"/>
+        <!-- neck + shoulders -->
+        <path d="M168 330h64v46c0 8 40 16 80 30 40 14 60 40 66 94H22c6-54 26-80 66-94 40-14 80-22 80-30z" fill="url(#skinG)"/>
+        <path d="M22 500c6-54 26-80 66-94l70-26c14 22 34 34 42 34s28-12 42-34l70 26c40 14 60 40 66 94z" fill="url(#topG)"/>
+        <!-- face -->
+        <ellipse cx="200" cy="225" rx="76" ry="94" fill="url(#skinG)"/>
+        <!-- fringe -->
+        <path d="M122 214c6-70 54-100 100-96 40 4 62 34 58 96-12-40-46-60-80-58-30 2-56 22-78 58z" fill="url(#hairG)"/>
+        <!-- eyes, brows, lips -->
+        <path d="M156 222q14-10 28 0" stroke="#3a1f28" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M216 222q14-10 28 0" stroke="#3a1f28" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M152 204q16-10 34-2M214 202q18-8 34 2" stroke="#4a2a33" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M200 232v26q-5 4-10 2" stroke="#c18a6c" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <path d="M172 284q28 22 56 0q-28-9-56 0z" fill="#c9788a"/>
+        <circle cx="160" cy="262" r="14" fill="#e58f8f" opacity=".35"/><circle cx="240" cy="262" r="14" fill="#e58f8f" opacity=".35"/>
+        <!-- flower in hair -->
+        <g transform="translate(272 132)">
+          <g fill="#f6e4e1"><ellipse cx="0" cy="-18" rx="11" ry="18"/><ellipse cx="0" cy="-18" rx="11" ry="18" transform="rotate(72)"/><ellipse cx="0" cy="-18" rx="11" ry="18" transform="rotate(144)"/><ellipse cx="0" cy="-18" rx="11" ry="18" transform="rotate(216)"/><ellipse cx="0" cy="-18" rx="11" ry="18" transform="rotate(288)"/></g>
+          <circle r="9" fill="#b88a4a"/>
+        </g>
+        <!-- earrings -->
+        <circle cx="123" cy="262" r="6" fill="#e6cfa3"/><circle cx="277" cy="262" r="6" fill="#e6cfa3"/>
+      </svg>
+      <span class="tag">♡ Ladies &amp; Gents welcome</span>
+    </div>
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="about_eyebrow">Karibu — you're welcome here</span>
+      <h2 data-i18n="about_h">More than a salon. A place to feel like yourself.</h2>
+      <p class="lead" data-i18n="about_p1">At Bela's, we believe beauty care should feel personal, relaxed and unhurried. Whether you're popping in for a quick eyebrow shape, treating yourself to a facial, or getting ready for a big day, you'll be greeted warmly and cared for properly.</p>
+      <p class="lead" style="margin-top:14px" data-i18n="about_p2">Good service, fair prices, and a friendly face — that's the whole idea. Many of our clients return again and again, and we'd love to welcome you next.</p>
+      <div class="values">
+        <div class="value"><b>Personal care</b><span>We listen first, so you leave with the look you actually wanted.</span></div>
+        <div class="value"><b>Honest prices</b><span>Good quality for ladies and gents, without the fuss.</span></div>
+        <div class="value"><b>Everything in one place</b><span>Hair, skin, nails, massage, waxing and make-up.</span></div>
+        <div class="value"><b>Easy to reach</b><span>Central location in Dar es Salaam, open daily.</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="svc_eyebrow">What we do</span>
+      <h2 data-i18n="svc_h">Treatments made for you</h2>
+      <p class="lead" data-i18n="svc_p">Pick a category to see what's on offer. Not sure what suits you? Just ask — we'll recommend something.</p>
+    </div>
+
+    <div class="tabs" role="tablist" aria-label="Service categories" id="tabs"></div>
+    <div id="panels"></div>
+
+    <p class="note">Prices depend on hair length, treatment and your needs — <a href="#book">message us on WhatsApp</a> for a friendly quote.</p>
+  </div>
+</section>
+
+<!-- BAND -->
+<div class="band">
+  <div class="wrap band-grid">
+    <div class="reveal"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2l2.8 6.2L21 9l-5 4.5L17.5 20 12 16.6 6.5 20 8 13.5 3 9l6.2-.8z"/></svg></div><h3>Rated 4.9 on Google</h3><p>Hundreds of clients have trusted us with their hair, skin and nails.</p></div>
+    <div class="reveal"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div><h3>Open every day</h3><p>9:00 AM to 8:00 PM — easy to fit around work and life.</p></div>
+    <div class="reveal"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></svg></div><h3>Treated like family</h3><p>Friendly, relaxed and respectful service from the moment you walk in.</p></div>
+  </div>
+</div>
+
+<!-- GALLERY -->
+<section class="gallery" id="gallery">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow">A little inspiration</span>
+      <h2>Beauty, from head to toe</h2>
+      <p class="lead">From a fresh cut to a calming facial, here's a taste of what you can enjoy at Bela's.</p>
+    </div>
+    <div class="g-grid" id="gGrid"></div>
+  </div>
+</section>
+
+<!-- BOOK -->
+<section id="book">
+  <div class="wrap book-grid">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="book_eyebrow">Reserve your spot</span>
+      <h2 data-i18n="book_h">Book in a minute, on WhatsApp</h2>
+      <p class="lead" data-i18n="book_p">Fill in the little form and it opens a ready-written WhatsApp message to us. We'll reply to confirm your time.</p>
+      <div class="hours" aria-label="Opening hours">
+        <div><span>Monday – Sunday</span><b id="hoursText">9:00 AM – 8:00 PM</b></div>
+        <div><span>Walk-ins</span><b>Welcome</b></div>
+        <div><span>Bridal &amp; events</span><b>Book ahead</b></div>
+      </div>
+    </div>
+    <form id="bookForm" class="reveal" novalidate>
+      <h3 data-i18n="form_h">Request an appointment</h3>
+      <div class="row">
+        <label>Your name<input id="f_name" required autocomplete="name" placeholder="e.g. Amina"></label>
+        <label>Service<select id="f_service"></select></label>
+      </div>
+      <div class="row">
+        <label>Preferred date<input id="f_date" type="date"></label>
+        <label>Preferred time<input id="f_time" type="time" min="09:00" max="19:30"></label>
+      </div>
+      <label>Anything we should know? (optional)<textarea id="f_note" placeholder="Hair length, occasion, allergies…"></textarea></label>
+      <button class="btn btn-wa" type="submit">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+        <span data-i18n="form_btn">Send on WhatsApp</span>
+      </button>
+      <p class="fine">Or call us directly: <a href="tel:+255715865590"><b>+255 715 865 590</b></a></p>
+    </form>
+  </div>
+</section>
+
+<!-- VISIT -->
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="reveal" style="margin-bottom:40px">
+      <span class="eyebrow" data-i18n="visit_eyebrow">Find us</span>
+      <h2 data-i18n="visit_h">Visit Bela's</h2>
+    </div>
+    <div class="visit-grid">
+      <div class="info reveal">
+        <div class="info-item"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 21s-7-6.2-7-11a7 7 0 0 1 14 0c0 4.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></span><div><b>Address</b>Livingstone / Amani Street,<br>within the Iris Hotel complex,<br>Dar es Salaam, Tanzania<br><a href="https://maps.app.goo.gl/dYjHnUdnTYsw86Qh6" target="_blank" rel="noopener">Get directions →</a></div></div>
+        <div class="info-item"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg></span><div><b>Call or WhatsApp</b><a href="tel:+255715865590">+255 715 865 590</a></div></div>
+        <div class="info-item"><span class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><div><b>Opening hours</b>Every day, 9:00 AM – 8:00 PM</div></div>
+        <a class="btn btn-gold" href="https://maps.app.goo.gl/dYjHnUdnTYsw86Qh6" target="_blank" rel="noopener" style="justify-self:start">Open in Google Maps</a>
+      </div>
+      <div class="map reveal">
+        <iframe title="Map to Bela's Hair and Beauty Salon" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          src="https://www.google.com/maps?q=Bela%27s+Hair+and+Beauty+Salon+Iris+Hotel+Livingstone+Amani+Street+Dar+es+Salaam&output=embed"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="logo-text">Bela's Hair &amp; Beauty</span>
+    <p>Hair · Facials · Nails · Massage · Waxing · Make-up<br>Karibu sana — we can't wait to see you.</p>
+    <div class="foot-links">
+      <a href="#services">Services</a><a href="#book">Book</a><a href="#visit">Visit</a>
+      <a href="https://maps.app.goo.gl/dYjHnUdnTYsw86Qh6" target="_blank" rel="noopener">Google reviews</a>
+    </div>
+    <p class="copy">© <span id="yr"></span> Bela's Hair and Beauty Salon, Dar es Salaam.</p>
+  </div>
+</footer>
+
+<a class="fab" id="fab" href="https://wa.me/255715865590" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1a8 8 0 0 1-4-3.5c-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5l-.9-2.1c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.3.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+</a>
+
+<script>
+/* ====== EASY EDIT: change these if details change ====== */
+const CONFIG = {
+  phone: "255715865590",        // WhatsApp number, no + or spaces
+  open: 9, close: 20,            // opening hours (24h clock), Dar es Salaam time
+  openDays: [0,1,2,3,4,5,6]      // 0 = Sunday ... 6 = Saturday
+};
+
+const SERVICES = {
+  "Hair":      ["Haircut & wash","Blow dry","Hair colour","Highlighting","Re-touch","Hair straightening","Ironing","Protein hair treatment","Aroma hair oil treatment","Henna for hair"],
+  "Facials":   ["Aroma facial","Vegetable peel","Pearl facial","Silver facial","Gold facial","Diamond facial","Thermo herbal facial","Herbal facial","Fruit facial","Gem facial","Jovees 24K gold facial","Electric facial"],
+  "Nails":     ["Manicure","Pedicure","Manicure & pedicure","Nail art"],
+  "Massage":   ["Head massage with hair food","Oil head massage","Body massage","Pressure-point oil massage"],
+  "Waxing":    ["Hands","Legs","Underarms","Full body","Henna wax"],
+  "Threading": ["Eyebrows","Upper lip","Chin","Full face"],
+  "Bleaching": ["Hands","Legs","Eyebrows","Face"],
+  "Make-up":   ["Day wear","Evening wear","Bridal make-up"]
+};
+const ICONS = {Hair:"✂",Facials:"✧",Nails:"❀",Massage:"♡",Waxing:"✦",Threading:"〰",Bleaching:"☼","Make-up":"✿"};
+
+const I18N = {
+  en:{nav_about:"About",nav_services:"Services",nav_book:"Book",nav_visit:"Visit",
+    hero_eyebrow:"Dar es Salaam · Ladies & Gents",hero_h1a:"Come as you are.",hero_h1b:"Leave glowing.",
+    hero_sub:"A warm, friendly salon where every guest is treated like family. Hair, facials, nails, massage and more — with honest prices and a genuine smile.",
+    cta_book:"Book your visit",cta_services:"Explore services",trust_rating:"Loved on Google",trust_reviews:"Happy reviews",trust_cats:"Treatment categories",
+    card_h:"Your pamper time starts here",card_p:"Walk in or book ahead — we'll look after you.",
+    about_eyebrow:"Karibu — you're welcome here",about_h:"More than a salon. A place to feel like yourself.",
+    about_p1:"At Bela's, we believe beauty care should feel personal, relaxed and unhurried. Whether you're popping in for a quick eyebrow shape, treating yourself to a facial, or getting ready for a big day, you'll be greeted warmly and cared for properly.",
+    about_p2:"Good service, fair prices, and a friendly face — that's the whole idea. Many of our clients return again and again, and we'd love to welcome you next.",
+    svc_eyebrow:"What we do",svc_h:"Treatments made for you",svc_p:"Pick a category to see what's on offer. Not sure what suits you? Just ask — we'll recommend something.",
+    book_eyebrow:"Reserve your spot",book_h:"Book in a minute, on WhatsApp",book_p:"Fill in the little form and it opens a ready-written WhatsApp message to us. We'll reply to confirm your time.",
+    form_h:"Request an appointment",form_btn:"Send on WhatsApp",visit_eyebrow:"Find us",visit_h:"Visit Bela's",
+    open:"Open now · until 8:00 PM",closed:"Closed now · opens 9:00 AM"},
+  sw:{nav_about:"Kuhusu Sisi",nav_services:"Huduma",nav_book:"Weka Miadi",nav_visit:"Tutembelee",
+    hero_eyebrow:"Dar es Salaam · Wanawake na Wanaume",hero_h1a:"Karibu kama ulivyo.",hero_h1b:"Toka ukiwa umependeza.",
+    hero_sub:"Saluni ya kirafiki ambapo kila mteja anapokelewa kama familia. Nywele, usoni, kucha, masaji na zaidi — kwa bei nzuri na tabasamu la kweli.",
+    cta_book:"Weka miadi yako",cta_services:"Tazama huduma",trust_rating:"Tunapendwa Google",trust_reviews:"Maoni mazuri",trust_cats:"Makundi ya huduma",
+    card_h:"Muda wako wa kujipamba unaanzia hapa",card_p:"Njoo moja kwa moja au weka miadi — tutakuhudumia vizuri.",
+    about_eyebrow:"Karibu sana",about_h:"Zaidi ya saluni. Mahali pa kujisikia wewe mwenyewe.",
+    about_p1:"Bela's tunaamini huduma ya urembo inapaswa kuwa ya kibinafsi na ya utulivu. Iwe unakuja kupanga nyusi, kufanya facial, au kujiandaa kwa siku kubwa, utapokelewa kwa uchangamfu na kuhudumiwa ipasavyo.",
+    about_p2:"Huduma nzuri, bei za haki, na uso wa kirafiki — hiyo ndiyo dhana yetu. Wateja wengi hurudi tena na tena, na tungependa kukukaribisha wewe pia.",
+    svc_eyebrow:"Tunachofanya",svc_h:"Huduma zilizoandaliwa kwa ajili yako",svc_p:"Chagua kundi uone huduma zetu. Huna uhakika nini kinakufaa? Uliza tu — tutakushauri.",
+    book_eyebrow:"Hifadhi nafasi yako",book_h:"Weka miadi kwa dakika moja, WhatsApp",book_p:"Jaza fomu fupi na itafungua ujumbe wa WhatsApp ulioandikwa tayari. Tutakujibu kuthibitisha muda wako.",
+    form_h:"Omba miadi",form_btn:"Tuma kwa WhatsApp",visit_eyebrow:"Tupate",visit_h:"Tembelea Bela's",
+    open:"Tumefunguliwa · hadi saa 2:00 usiku",closed:"Tumefunga · tunafungua saa 3:00 asubuhi"}
+};
+
+/* Services tabs + panels + select */
+const tabs=document.getElementById('tabs'),panels=document.getElementById('panels'),sel=document.getElementById('f_service');
+Object.keys(SERVICES).forEach((cat,i)=>{
+  const b=document.createElement('button');b.className='tab';b.role='tab';b.textContent=cat;b.setAttribute('aria-selected',i===0);b.dataset.i=i;tabs.appendChild(b);
+  const p=document.createElement('div');p.className='panel'+(i===0?' active':'');p.role='tabpanel';
+  p.innerHTML=SERVICES[cat].map(s=>`<div class="svc"><i>${ICONS[cat]}</i><span>${s}</span></div>`).join('');
+  panels.appendChild(p);
+  const og=document.createElement('optgroup');og.label=cat;
+  SERVICES[cat].forEach(s=>{const o=document.createElement('option');o.value=cat+' – '+s;o.textContent=s;og.appendChild(o)});sel.appendChild(og);
+});
+tabs.addEventListener('click',e=>{
+  const t=e.target.closest('.tab');if(!t)return;
+  [...tabs.children].forEach(x=>x.setAttribute('aria-selected',x===t));
+  [...panels.children].forEach((x,i)=>x.classList.toggle('active',i==t.dataset.i));
+});
+
+/* Header + mobile menu */
+const header=document.querySelector('header'),nav=document.getElementById('nav'),burger=document.getElementById('burger');
+const onScroll=()=>header.classList.toggle('scrolled',scrollY>40);onScroll();addEventListener('scroll',onScroll,{passive:true});
+burger.onclick=()=>{const o=nav.classList.toggle('open');burger.setAttribute('aria-expanded',o)};
+nav.addEventListener('click',e=>{if(e.target.closest('a'))nav.classList.remove('open')});
+
+/* Language */
+let lang='en';
+function applyLang(){
+  document.documentElement.lang=lang;
+  document.querySelectorAll('[data-i18n]').forEach(el=>{const v=I18N[lang][el.dataset.i18n];if(v)el.textContent=v});
+  document.getElementById('lang').textContent=lang==='en'?'SW':'EN';
+  updateStatus();
+}
+document.getElementById('lang').onclick=()=>{lang=lang==='en'?'sw':'en';try{localStorage.setItem('belas-lang',lang)}catch(e){}applyLang()};
+try{const s=localStorage.getItem('belas-lang');if(s&&I18N[s])lang=s}catch(e){}
+
+/* Open-now (Dar es Salaam time) */
+function updateStatus(){
+  const now=new Date(new Date().toLocaleString('en-US',{timeZone:'Africa/Dar_es_Salaam'}));
+  const h=now.getHours()+now.getMinutes()/60,isOpen=CONFIG.openDays.includes(now.getDay())&&h>=CONFIG.open&&h<CONFIG.close;
+  document.getElementById('statusText').textContent=isOpen?I18N[lang].open:I18N[lang].closed;
+  document.getElementById('dot').classList.toggle('closed',!isOpen);
+}
+setInterval(updateStatus,60000);
+
+/* Booking -> WhatsApp */
+const d=document.getElementById('f_date');d.min=new Date().toISOString().split('T')[0];
+document.getElementById('bookForm').addEventListener('submit',e=>{
+  e.preventDefault();
+  const name=f_name.value.trim();
+  if(!name){f_name.focus();f_name.style.borderColor='#c9788a';return}
+  const lines=[`Hello Bela's! My name is ${name}. I'd like to book: ${f_service.value}.`];
+  if(f_date.value)lines.push(`Preferred date: ${f_date.value}`);
+  if(f_time.value)lines.push(`Preferred time: ${f_time.value}`);
+  if(f_note.value.trim())lines.push(`Note: ${f_note.value.trim()}`);
+  lines.push('Thank you!');
+  window.open(`https://wa.me/${CONFIG.phone}?text=${encodeURIComponent(lines.join('\n'))}`,'_blank','noopener');
+});
+
+/* ====== GALLERY ======
+   To use real photos: put the image file next to this page and add its name below,
+   e.g.  hair: "photos/hair.jpg"  — it replaces the illustration automatically. */
+const PHOTOS = { hair:"", facial:"", nails:"", massage:"", brows:"", makeup:"" };
+
+const ART = {
+  hair:`<svg viewBox="0 0 200 200" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <g stroke="#fff" stroke-width="5"><circle cx="62" cy="150" r="20"/><circle cx="138" cy="150" r="20"/><path d="M72 133 128 38M128 133 72 38"/></g>
+    <g stroke="#e6cfa3" stroke-width="3"><path d="M30 60h60M30 72h60M30 84h60"/></g>
+    <circle cx="150" cy="50" r="5" fill="#e6cfa3"/><circle cx="168" cy="72" r="3" fill="#fff"/><path d="M40 30l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#fff" stroke="none"/></svg>`,
+  facial:`<svg viewBox="0 0 200 200">
+    <g transform="translate(100 150)" fill="#fff" fill-opacity=".92">
+      <ellipse cy="-48" rx="17" ry="46" transform="rotate(-62)" fill-opacity=".6"/><ellipse cy="-48" rx="17" ry="46" transform="rotate(62)" fill-opacity=".6"/>
+      <ellipse cy="-48" rx="17" ry="46" transform="rotate(-32)" fill-opacity=".8"/><ellipse cy="-48" rx="17" ry="46" transform="rotate(32)" fill-opacity=".8"/>
+      <ellipse cy="-52" rx="17" ry="50"/></g>
+    <path d="M40 158q60 22 120 0" stroke="#e6cfa3" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="36" cy="50" r="4" fill="#fff"/><circle cx="168" cy="38" r="6" fill="#e6cfa3"/><circle cx="160" cy="110" r="3" fill="#fff"/></svg>`,
+  nails:`<svg viewBox="0 0 200 200">
+    <rect x="62" y="96" width="76" height="82" rx="18" fill="#fff" fill-opacity=".92"/>
+    <rect x="62" y="120" width="76" height="34" fill="#c9788a" opacity=".85"/>
+    <rect x="84" y="72" width="32" height="28" rx="4" fill="#e6cfa3"/>
+    <rect x="90" y="24" width="20" height="52" rx="8" fill="#3b1f2b"/>
+    <path d="M150 40l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" fill="#fff"/><circle cx="48" cy="60" r="5" fill="#e6cfa3"/><circle cx="40" cy="150" r="3" fill="#fff"/></svg>`,
+  massage:`<svg viewBox="0 0 200 200">
+    <ellipse cx="100" cy="158" rx="54" ry="16" fill="#fff" fill-opacity=".95"/>
+    <ellipse cx="100" cy="132" rx="42" ry="14" fill="#e6cfa3"/>
+    <ellipse cx="100" cy="110" rx="30" ry="11" fill="#fff" fill-opacity=".85"/>
+    <path d="M100 98c-6-22-26-30-46-24 8 22 28 30 46 24zM100 98c6-22 26-30 46-24-8 22-28 30-46 24z" fill="#9bc79b" opacity=".95"/>
+    <circle cx="44" cy="44" r="5" fill="#fff"/><circle cx="158" cy="52" r="4" fill="#e6cfa3"/></svg>`,
+  brows:`<svg viewBox="0 0 200 200" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M30 70q70-44 140 0" stroke="#3b1f2b" stroke-width="12"/>
+    <path d="M30 120q70-48 140 0q-70 48-140 0z" fill="#fff" stroke="#fff" stroke-width="3"/>
+    <circle cx="100" cy="120" r="24" fill="#8a5a44" stroke="none"/><circle cx="100" cy="120" r="10" fill="#2a1a21" stroke="none"/><circle cx="108" cy="112" r="4" fill="#fff" stroke="none"/>
+    <path d="M44 100l-8-12M70 90l-4-14M130 90l4-14M156 100l8-12" stroke="#3b1f2b" stroke-width="3"/></svg>`,
+  makeup:`<svg viewBox="0 0 200 200" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="52" y="104" width="34" height="70" rx="6" fill="#fff" fill-opacity=".92" stroke="none"/>
+    <rect x="52" y="82" width="34" height="26" fill="#e6cfa3" stroke="none"/>
+    <path d="M56 82q13-34 26 0z" fill="#c9788a" stroke="none"/>
+    <path d="M142 168V84" stroke="#fff" stroke-width="7"/><path d="M142 84c-20-4-24-30-8-44 10 14 30 22 16 44z" fill="#e6cfa3" stroke="#e6cfa3" stroke-width="2"/>
+    <circle cx="112" cy="58" r="5" fill="#fff" stroke="none"/><path d="M150 140l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#fff" stroke="none"/></svg>`
+};
+const TILES = [
+  {k:"hair",    t:"Hair",         s:"Cuts, colour & treatments",  bg:"linear-gradient(150deg,#7a3b52,#3b1f2b)"},
+  {k:"facial",  t:"Facials",      s:"Glow from the inside out",   bg:"linear-gradient(150deg,#d98b9b,#a8566b)"},
+  {k:"nails",   t:"Nails",        s:"Manicure, pedicure & art",   bg:"linear-gradient(150deg,#c79a5a,#8c6530)"},
+  {k:"massage", t:"Massage",      s:"Slow down and unwind",       bg:"linear-gradient(150deg,#7fae8f,#46755a)"},
+  {k:"brows",   t:"Brows & Waxing", s:"Threading, waxing, bleaching", bg:"linear-gradient(150deg,#a07aa8,#5e3b6a)"},
+  {k:"makeup",  t:"Make-up",      s:"Day, evening & bridal",      bg:"linear-gradient(150deg,#e08f86,#b2544e)"}
+];
+document.getElementById('gGrid').innerHTML=TILES.map(x=>`
+  <figure class="tile reveal" style="--bg:${x.bg}">
+    ${PHOTOS[x.k]?`<img src="${PHOTOS[x.k]}" alt="${x.t} at Bela's" loading="lazy">`:`<div class="art" role="img" aria-label="${x.t} illustration">${ART[x.k]}</div>`}
+    <figcaption>${x.t}<small>${x.s}</small></figcaption>
+  </figure>`).join('');
+
+/* Reveal on scroll */
+const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12});
+document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+
+document.getElementById('yr').textContent=new Date().getFullYear();
+applyLang();
+</script>
+</body>
+</html>
